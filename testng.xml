@@ -3,6 +3,7 @@
     <test name="Open Website Test">
         <classes>
             <class name="OpenWebsiteTest"/>
+            <class name="HomePageTest"/>
         </classes>
     </test>
 </suite>

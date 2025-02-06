@@ -1,8 +1,0 @@
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Web Test Suite">
-    <test name="Open Website Test">
-        <classes>
-            <class name="OpenWebsiteTest"/>
-        </classes>
-    </test>
-</suite>

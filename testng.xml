@@ -1,9 +1,31 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Web Test Suite">
-    <test name="Open Website Test">
+
+    <!-- Run tests in Chrome -->
+    <test thread-count="2" name="Chrome Test">
+        <parameter name="browser" value="chrome"></parameter>
         <classes>
             <class name="OpenWebsiteTest"/>
             <class name="HomePageTest"/>
         </classes>
     </test>
+
+    <!-- Run tests in Firefox -->
+    <test thread-count="2" name="Firefox Test">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="OpenWebsiteTest"/>
+            <class name="HomePageTest"/>
+        </classes>
+    </test>
+
+    <!-- Run tests in Edge -->
+    <test thread-count="2" name="Edge Test">
+        <parameter name="browser" value="edge"></parameter>
+        <classes>
+            <class name="OpenWebsiteTest"/>
+            <class name="HomePageTest"/>
+        </classes>
+    </test>
+
 </suite>

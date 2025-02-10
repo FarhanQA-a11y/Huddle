@@ -15,12 +15,15 @@ public class HomePage {
         PageFactory.initElements(driver, this);
     }
 	
-	 public void clickSearchButton() throws InterruptedException {
+	 public void clickSearchButton(String email) throws InterruptedException {
 		 System.out.println("Clicked on farh");
 	        
 	        searchButton.click();
 	        Thread.sleep(300);
-	        searchButton.sendKeys("farhan@yopmail.com");
+	        searchButton.sendKeys(email);
+	        Thread.sleep(2000);
+	        searchButton.clear();
+	        Thread.sleep(3000);
 	        System.out.println("Clicked on Search button.");
 	    }
 

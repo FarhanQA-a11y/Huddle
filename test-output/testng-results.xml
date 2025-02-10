@@ -1,23 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="12" passed="6" failed="0" skipped="0">
+<testng-results ignored="6" total="21" passed="15" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-06T23:36:54 IST" name="Web Test Suite" finished-at="2025-02-06T23:37:21 IST" duration-ms="27074">
+  <suite started-at="2025-02-10T23:54:01 IST" name="Web Test Suite" finished-at="2025-02-10T23:55:31 IST" duration-ms="90558">
     <groups>
     </groups>
-    <test started-at="2025-02-06T23:36:54 IST" name="Chrome Test" finished-at="2025-02-06T23:37:02 IST" duration-ms="8606">
+    <test started-at="2025-02-10T23:54:01 IST" name="Chrome Test" finished-at="2025-02-10T23:54:30 IST" duration-ms="29833">
       <class name="HomePageTest">
-        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:HomePageTest@4c1909a3]" started-at="2025-02-06T23:37:01 IST" name="setUpHomePage" finished-at="2025-02-06T23:37:01 IST" depends-on-methods="BaseTest.setUp" duration-ms="37" status="PASS">
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:HomePageTest@73e9cf30]" started-at="2025-02-10T23:54:07 IST" name="setUpHomePage" finished-at="2025-02-10T23:54:07 IST" depends-on-methods="BaseTest.setUp" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpHomePage -->
-        <test-method signature="testClickSearchButton()[pri:0, instance:HomePageTest@4c1909a3]" started-at="2025-02-06T23:37:01 IST" name="testClickSearchButton" finished-at="2025-02-06T23:37:02 IST" duration-ms="628" status="PASS">
+        <test-method signature="testClickSearchButton(java.lang.String)[pri:0, instance:HomePageTest@73e9cf30]" started-at="2025-02-10T23:54:08 IST" name="testClickSearchButton" data-provider="loginData" finished-at="2025-02-10T23:54:13 IST" duration-ms="5604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yk@yopmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickSearchButton -->
+        <test-method signature="testClickSearchButton(java.lang.String)[pri:0, instance:HomePageTest@73e9cf30]" started-at="2025-02-10T23:54:13 IST" name="testClickSearchButton" data-provider="loginData" finished-at="2025-02-10T23:54:19 IST" duration-ms="5495" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fk@yopmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickSearchButton -->
+        <test-method signature="testClickSearchButton(java.lang.String)[pri:0, instance:HomePageTest@73e9cf30]" started-at="2025-02-10T23:54:19 IST" name="testClickSearchButton" data-provider="loginData" finished-at="2025-02-10T23:54:24 IST" duration-ms="5501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ggg@yopmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickSearchButton -->
+        <test-method signature="testClickSearchButton(java.lang.String)[pri:0, instance:HomePageTest@73e9cf30]" started-at="2025-02-10T23:54:24 IST" name="testClickSearchButton" data-provider="loginData" finished-at="2025-02-10T23:54:30 IST" duration-ms="5504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testClickSearchButton -->
       </class> <!-- HomePageTest -->
       <class name="OpenWebsiteTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:OpenWebsiteTest@66f57048]" started-at="2025-02-06T23:36:54 IST" name="setUp" finished-at="2025-02-06T23:37:01 IST" duration-ms="7483" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:OpenWebsiteTest@61001b64]" started-at="2025-02-10T23:54:01 IST" name="setUp" finished-at="2025-02-10T23:54:07 IST" duration-ms="6765" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,29 +68,69 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="openGoogle()[pri:0, instance:OpenWebsiteTest@66f57048]" started-at="2025-02-06T23:37:01 IST" name="openGoogle" finished-at="2025-02-06T23:37:01 IST" duration-ms="18" status="PASS">
+        <test-method signature="openGoogle()[pri:0, instance:OpenWebsiteTest@61001b64]" started-at="2025-02-10T23:54:07 IST" name="openGoogle" finished-at="2025-02-10T23:54:07 IST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openGoogle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:OpenWebsiteTest@66f57048]" started-at="2025-02-06T23:37:02 IST" name="tearDown" finished-at="2025-02-06T23:37:02 IST" duration-ms="387" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:OpenWebsiteTest@61001b64]" started-at="2025-02-10T23:54:30 IST" name="tearDown" finished-at="2025-02-10T23:54:30 IST" duration-ms="393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- OpenWebsiteTest -->
     </test> <!-- Chrome Test -->
-    <test started-at="2025-02-06T23:37:02 IST" name="Firefox Test" finished-at="2025-02-06T23:37:12 IST" duration-ms="10099">
+    <test started-at="2025-02-10T23:54:30 IST" name="Firefox Test" finished-at="2025-02-10T23:55:01 IST" duration-ms="31117">
       <class name="HomePageTest">
-        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:HomePageTest@45099dd3]" started-at="2025-02-06T23:37:11 IST" name="setUpHomePage" finished-at="2025-02-06T23:37:11 IST" depends-on-methods="BaseTest.setUp" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:HomePageTest@3646a422]" started-at="2025-02-10T23:54:38 IST" name="setUpHomePage" finished-at="2025-02-10T23:54:38 IST" depends-on-methods="BaseTest.setUp" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpHomePage -->
-        <test-method signature="testClickSearchButton()[pri:0, instance:HomePageTest@45099dd3]" started-at="2025-02-06T23:37:11 IST" name="testClickSearchButton" finished-at="2025-02-06T23:37:12 IST" duration-ms="601" status="PASS">
+        <test-method signature="testClickSearchButton(java.lang.String)[pri:0, instance:HomePageTest@3646a422]" started-at="2025-02-10T23:54:38 IST" name="testClickSearchButton" data-provider="loginData" finished-at="2025-02-10T23:54:44 IST" duration-ms="5855" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yk@yopmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickSearchButton -->
+        <test-method signature="testClickSearchButton(java.lang.String)[pri:0, instance:HomePageTest@3646a422]" started-at="2025-02-10T23:54:44 IST" name="testClickSearchButton" data-provider="loginData" finished-at="2025-02-10T23:54:49 IST" duration-ms="5622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fk@yopmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickSearchButton -->
+        <test-method signature="testClickSearchButton(java.lang.String)[pri:0, instance:HomePageTest@3646a422]" started-at="2025-02-10T23:54:49 IST" name="testClickSearchButton" data-provider="loginData" finished-at="2025-02-10T23:54:55 IST" duration-ms="5605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ggg@yopmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickSearchButton -->
+        <test-method signature="testClickSearchButton(java.lang.String)[pri:0, instance:HomePageTest@3646a422]" started-at="2025-02-10T23:54:55 IST" name="testClickSearchButton" data-provider="loginData" finished-at="2025-02-10T23:55:01 IST" duration-ms="5599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testClickSearchButton -->
       </class> <!-- HomePageTest -->
       <class name="OpenWebsiteTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:OpenWebsiteTest@6340e5f0]" started-at="2025-02-06T23:37:02 IST" name="setUp" finished-at="2025-02-06T23:37:11 IST" duration-ms="8663" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:OpenWebsiteTest@5ab956d7]" started-at="2025-02-10T23:54:30 IST" name="setUp" finished-at="2025-02-10T23:54:38 IST" duration-ms="7473" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,29 +141,69 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="openGoogle()[pri:0, instance:OpenWebsiteTest@6340e5f0]" started-at="2025-02-06T23:37:11 IST" name="openGoogle" finished-at="2025-02-06T23:37:11 IST" duration-ms="8" status="PASS">
+        <test-method signature="openGoogle()[pri:0, instance:OpenWebsiteTest@5ab956d7]" started-at="2025-02-10T23:54:38 IST" name="openGoogle" finished-at="2025-02-10T23:54:38 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openGoogle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:OpenWebsiteTest@6340e5f0]" started-at="2025-02-06T23:37:12 IST" name="tearDown" finished-at="2025-02-06T23:37:12 IST" duration-ms="820" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:OpenWebsiteTest@5ab956d7]" started-at="2025-02-10T23:55:01 IST" name="tearDown" finished-at="2025-02-10T23:55:01 IST" duration-ms="859" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- OpenWebsiteTest -->
     </test> <!-- Firefox Test -->
-    <test started-at="2025-02-06T23:37:12 IST" name="Edge Test" finished-at="2025-02-06T23:37:21 IST" duration-ms="8332">
+    <test started-at="2025-02-10T23:55:01 IST" name="Edge Test" finished-at="2025-02-10T23:55:31 IST" duration-ms="29581">
       <class name="HomePageTest">
-        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:HomePageTest@20140db9]" started-at="2025-02-06T23:37:19 IST" name="setUpHomePage" finished-at="2025-02-06T23:37:19 IST" depends-on-methods="BaseTest.setUp" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:HomePageTest@46cdf8bd]" started-at="2025-02-10T23:55:08 IST" name="setUpHomePage" finished-at="2025-02-10T23:55:08 IST" depends-on-methods="BaseTest.setUp" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpHomePage -->
-        <test-method signature="testClickSearchButton()[pri:0, instance:HomePageTest@20140db9]" started-at="2025-02-06T23:37:19 IST" name="testClickSearchButton" finished-at="2025-02-06T23:37:19 IST" duration-ms="631" status="PASS">
+        <test-method signature="testClickSearchButton(java.lang.String)[pri:0, instance:HomePageTest@46cdf8bd]" started-at="2025-02-10T23:55:08 IST" name="testClickSearchButton" data-provider="loginData" finished-at="2025-02-10T23:55:13 IST" duration-ms="5608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yk@yopmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickSearchButton -->
+        <test-method signature="testClickSearchButton(java.lang.String)[pri:0, instance:HomePageTest@46cdf8bd]" started-at="2025-02-10T23:55:13 IST" name="testClickSearchButton" data-provider="loginData" finished-at="2025-02-10T23:55:19 IST" duration-ms="5524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fk@yopmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickSearchButton -->
+        <test-method signature="testClickSearchButton(java.lang.String)[pri:0, instance:HomePageTest@46cdf8bd]" started-at="2025-02-10T23:55:19 IST" name="testClickSearchButton" data-provider="loginData" finished-at="2025-02-10T23:55:24 IST" duration-ms="5527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ggg@yopmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickSearchButton -->
+        <test-method signature="testClickSearchButton(java.lang.String)[pri:0, instance:HomePageTest@46cdf8bd]" started-at="2025-02-10T23:55:24 IST" name="testClickSearchButton" data-provider="loginData" finished-at="2025-02-10T23:55:30 IST" duration-ms="5541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testClickSearchButton -->
       </class> <!-- HomePageTest -->
       <class name="OpenWebsiteTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:OpenWebsiteTest@60099951]" started-at="2025-02-06T23:37:12 IST" name="setUp" finished-at="2025-02-06T23:37:19 IST" duration-ms="6315" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:OpenWebsiteTest@2a7f1f10]" started-at="2025-02-10T23:55:01 IST" name="setUp" finished-at="2025-02-10T23:55:08 IST" duration-ms="6062" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -94,11 +214,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="openGoogle()[pri:0, instance:OpenWebsiteTest@60099951]" started-at="2025-02-06T23:37:19 IST" name="openGoogle" finished-at="2025-02-06T23:37:19 IST" duration-ms="18" status="PASS">
+        <test-method signature="openGoogle()[pri:0, instance:OpenWebsiteTest@2a7f1f10]" started-at="2025-02-10T23:55:08 IST" name="openGoogle" finished-at="2025-02-10T23:55:08 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openGoogle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:OpenWebsiteTest@60099951]" started-at="2025-02-06T23:37:19 IST" name="tearDown" finished-at="2025-02-06T23:37:21 IST" duration-ms="1364" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:OpenWebsiteTest@2a7f1f10]" started-at="2025-02-10T23:55:30 IST" name="tearDown" finished-at="2025-02-10T23:55:31 IST" duration-ms="1282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -2,6 +2,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+
+
 public class HomePageTest extends BaseTest {
     private HomePage homePage;
 
@@ -11,9 +13,9 @@ public class HomePageTest extends BaseTest {
         homePage = new HomePage(driver);
     }
 
-    @Test
-    public void testClickSearchButton() throws InterruptedException {
+    @Test(dataProvider = "loginData", dataProviderClass = ExcelDataProvider.class)
+    public void testClickSearchButton(String email) throws InterruptedException {
       
-        homePage.clickSearchButton();
+        homePage.clickSearchButton(email);
     }
 }
